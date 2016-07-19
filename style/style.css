@@ -1,4 +1,26 @@
-.search {
-  background-color: black;
-  color: white;
+.search input {
+  background-color: #ddd;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  width: 75%;
+  text-align: center;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
 }
